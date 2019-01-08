@@ -11,7 +11,7 @@ fi
 dir=$(  pwd -P )
 
 # Generate docs in AsciiDoc format > `tmp/index.adoc`.
-java -jar ./build/libs/swagger2markup-cli-1.3.3.jar convert \
+java -jar swagger2markup-cli-1.3.3.jar convert \
     -i ${source} \
     -f ${dir}/openapi \
 #    -c ${dir}/config.properties \
