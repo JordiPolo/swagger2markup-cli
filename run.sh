@@ -18,5 +18,5 @@ java -jar swagger2markup-cli-1.3.3.jar convert \
     >$(tty)
 
 # Convert AsciiDoc to PDF (output to stdout).
-asciidoctor-pdf -a toc=left -a toclevels=3 --out-file=openapi.pdf openapi.adoc
+gems/bin/asciidoctor-pdf -a toc=left -a toclevels=3 --out-file=openapi.pdf openapi.adoc
 
