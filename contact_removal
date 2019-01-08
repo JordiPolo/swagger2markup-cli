@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+
+filename = ARGV[0]
+lines = File.readlines(filename)
+
+skipping = false
+skipped_lines = []
+lines.each do |line|
+  skipping = true if line.include?("=== Contact information")
+  skipping = false if line.include?("=== URI scheme")
+
+  skipped_lines << line unless skipping
+end
+
+File.open(filename,"w") do |outfile|
+    outfile.puts skipped_lines.join("\r\n")
+end
+
+
