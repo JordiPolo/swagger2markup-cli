@@ -13,7 +13,7 @@ lines.each do |line|
 end
 
 File.open(filename,"w") do |outfile|
-    outfile.puts skipped_lines.join("\n")
+    outfile.puts skipped_lines.join("")
 end
 
 

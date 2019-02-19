@@ -29,3 +29,4 @@ export GEM_PATH=$GEM_PATH:${dir}/gems
 # Convert AsciiDoc to PDF (output to stdout).
 asciidoctor-pdf -a pdf-style=theme.yml --out-file=openapi.pdf openapi.adoc
 
+echo "Your beautiful file available as openapi.pdf in this directory 👍"
