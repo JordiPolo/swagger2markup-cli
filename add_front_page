@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+
+filename = ARGV[0]
+lines = File.readlines(filename)
+front_page = File.readlines('front_page.adoc')
+title = lines.shift
+
+total = []
+total.push title
+total.push front_page
+total.push lines
+
+File.open(filename,"w") do |outfile|
+    outfile.puts total.join("")
+end
+
+

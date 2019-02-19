@@ -20,9 +20,12 @@ java -jar swagger2markup-cli-1.3.3.jar convert \
 echo "Removing contact information"
 ./contact_removal openapi.adoc
 
+echo "Adding Medidata flavored front page"
+./add_front_page openapi.adoc
+
 echo "Rendering beautifully into PDF...🧚 ✨"
 export PATH=$PATH:${dir}/gems/bin
 export GEM_PATH=$GEM_PATH:${dir}/gems
 # Convert AsciiDoc to PDF (output to stdout).
-asciidoctor-pdf -a toc=left -a toclevels=3 --out-file=openapi.pdf openapi.adoc
+asciidoctor-pdf -a pdf-style=theme.yml --out-file=openapi.pdf openapi.adoc
 

@@ -1,0 +1,69 @@
+:toc: macro
+:toclevels: 3
+:notitle:
+
+{sp} +
+{sp} +
+{sp} +
+{sp} +
+{sp} +
+
+image::medidata.png[]
+
+{sp} +
+{sp} +
+{sp} +
+{sp} +
+
+[abstract]
+.Title here
+[discrete]
+[.text-center]
+== Medidata
+
+[discrete]
+== {doctitle}
+
+[discrete]
+=== Service Contract
+
+{sp} +
+{sp} +
+{sp} +
+{sp} +
+{sp} +
+{sp} +
+{sp} +
+
+
+[cols="3,2,2", frame=none, grid=none]
+|===
+|
+Document version 1.0
+
+{docdate}
+|
+|
+
+Medidata Solutions, Inc.
+Corporate Office
+350 Hudson Street
+New York, N.Y. 10014
++1 212 918 1800
+|===
+
+
+
+© Copyright 2019 Medidata Solutions, Inc. All rights reserved.
+Medidata, Medidata Solutions Worldwide, iMedidata, Medidata Balance, Medidata CRO
+Contractor, Medidata Designer, Medidata Grants Manager, Medidata Classic Rave,
+Medidata Rave Monitor, Medidata Rave Safety Gateway, Medidata Rave Targeted SDV,
+Medidata University, and their respective logos are trademarks, or registered trademarks,
+of Medidata Solutions, Inc. All other brands or product names used in this document are
+trademarks, or registered trademarks, for their respective owners.
+
+
+<<<
+
+toc::[]
+
