@@ -1,6 +1,7 @@
 :toc: macro
 :toclevels: 2
 :notitle:
+:sectnums:
 
 {sp} +
 {sp} +
@@ -54,7 +55,7 @@ New York, N.Y. 10014
 
 
 
-© Copyright 2019 Medidata Solutions, Inc. All rights reserved.
+© Copyright {docyear} Medidata Solutions, Inc. All rights reserved.
 Medidata, Medidata Solutions Worldwide, iMedidata, Medidata Balance, Medidata CRO
 Contractor, Medidata Designer, Medidata Grants Manager, Medidata Classic Rave,
 Medidata Rave Monitor, Medidata Rave Safety Gateway, Medidata Rave Targeted SDV,
