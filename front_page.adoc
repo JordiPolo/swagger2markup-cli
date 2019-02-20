@@ -16,17 +16,14 @@ image::medidata.png[]
 {sp} +
 {sp} +
 
-[abstract]
-.Title here
 [discrete]
-[.text-center]
-== Medidata
+= Medidata
 
 [discrete]
-== {doctitle}
+= {doctitle}
 
 [discrete]
-=== Service Contract
+= Service Contract
 
 {sp} +
 {sp} +
